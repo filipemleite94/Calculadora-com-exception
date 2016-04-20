@@ -1,4 +1,4 @@
-
+//Função do erro:
 public class digitoinvalido extends Exception {
 	char c;
 	public digitoinvalido(char c){
