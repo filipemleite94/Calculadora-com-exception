@@ -5,6 +5,7 @@ public class digitoinvalido extends Exception {
 		this.c=c;
 		}
 	public String erro(){
+		//Diferenciação no tratamento dos erros mais comuns '.' e ','
 		if(c=='.'||c==',')
 			return ("Erro: Lembre-se o programa nao reconhece '"+c+"' recomenda-se multiplicar a operacao por 10^n e dividir no final por 10^n\nReinsira a operacao a partir do operador anterior ao erro:");
 		else 
